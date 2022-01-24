@@ -3,7 +3,14 @@
     <exec>
       <option name="COMMAND" value="C:\Users\Administrator\AppData\Local\Programs\Python\Python310\Lib\site-packages\PySide6\designer.exe" />
       <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="D:/pythonProject/study/Modern_GUI_PyDracula_PySide6_or_PyQt6" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+  <tool name="PyUIC" description="PyUIC" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="C:\Users\Administrator\AppData\Local\Programs\Python\Python310\Scripts\pyside6-uic.exe" />
+      <option name="PARAMETERS" value="$FileName$ -o $FileNameWithoutExtension$.py" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
     </exec>
   </tool>
 </toolSet>
